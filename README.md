@@ -1,4 +1,4 @@
-## HOMEWORK: Compute Averages of Student<br>
+## HOMEWORK 1 : Compute Averages of Student<br>
 ### Tests<br>
 You are tasked with creating a program that calculates and displays various statistics related to student grades for a class. The program will take input from the user regarding the number of students and the number of tests each student has taken. It will then prompt the user to input the names of the students and their respective test scores. Based on this input, the program will perform the following tasks:<br>
 1. Read the number of students and the number of tests per student from the user.<br>
