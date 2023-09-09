@@ -1,13 +1,8 @@
 ## HOMEWORK: Compute Averages of Student<br>
 ### Tests<br>
-You are tasked with creating a program that calculates and displays various
-statistics related to student grades for a class. The program will take input
-from the user regarding the number of students and the number of tests each
-student has taken. It will then prompt the user to input the names of the
-students and their respective test scores. Based on this input, the program
-will perform the following tasks:<br>
+You are tasked with creating a program that calculates and displays various statistics related to student grades for a class. The program will take input from the user regarding the number of students and the number of tests each student has taken. It will then prompt the user to input the names of the students and their respective test scores. Based on this input, the program will perform the following tasks:<br>
 1. Read the number of students and the number of tests per student from the user.<br>
-2. Create arrays to store student names and test scores<br>
+2. Create arrays to store student names and test scores.<br>
 3. Input student names and their test scores, calculating the total score for each student.<br>
 4. Calculate and display the average score for each student.<br>
 5. Calculate and display the class average score.<br>
@@ -15,7 +10,7 @@ will perform the following tasks:<br>
 ### Requirements<br>
 Your program should meet the following requirements:<br>
 • Prompt the user to input the number of students and the number of tests.<br>
-• Use arrays to store student names and test scores<br>
+• Use arrays to store student names and test scores.<br>
 • Input student names and test scores using appropriate loops.<br>
 • Calculate student averages, class average, and test averages accurately.<br>
 • Display the results neatly, providing appropriate labels for each output.<br>
