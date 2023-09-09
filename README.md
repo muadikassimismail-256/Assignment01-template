@@ -1,64 +1,45 @@
-# Homework
-In this homework assignment, you will build a simple text-based game in C++. The game consists of a 5x5 grid where the player can move around, collect items, and avoid traps. Your task is to complete the following exercises to build the game step by step.<br>
-## Exercise 1: Initialize the Game Board
-Write a function called initialize_board that initializes a 5x5 board with zeros, items, and traps.<br>
-### Hints:<br>
-• Use 2D arrays to represent the board.<br>
-• Manually place some items (denoted with 1) and traps (denoted with -1) on the board.<br>
-• void initialize_board(int board[rows][cols])<br>
-## Exercise 2: Display the Game Board
-Write a function called display_board to display the current state of the board.<br>
-### Hints:<br>
-• Use nested loops to print each cell of the board.<br>
-#### Example Output:<br>
-0 0 0 0 0<br>
-0 1 0 0 0<br>
-0 0 -1 0 0<br>
-0 0 0 0 0<br>
-0 0 0 0 0<br>
-## Exercise 3: User Movement
-Write a function called move_cursor that allows the user to move a cursor within the game board. Ask the user to input a direction: 'U' for "up", 'D' for "down", 'L' for "left", 'R' for "right". And make sure that no invalid characters are inserted.<br>
-### Hints:<br>
-• void move_cursor(int &x, int &y, char direction)<br>
-## Exercise 4: Collecting Items and Avoiding Traps
-Write a function called check_position that checks whether the cursor has moved onto an item or a trap and updates the score accordingly. If the player collects an item his score increases by 10, if he walks into a trap, his score decreases by 10.<br>
-#### Example Output:<br>
-Item collected!<br>
-or<br>
-You hit a trap!<br>
-## Exercise 5: Update the board
-Write a function called update_board that updates the board. In case the current position is on an item, the item is collected and the 1 on the board is replaced with a 0.<br>
-## Write the main function of the game
-Write a main function that lets the player perform a certain number of moves (say 10) and then prints out his score at the end.<br>
-### Hints:<br> 
-• The output should look something like this:<br>
-
-Current position (0,0)<br>
-0 0 0 0 0<br>
-0 1 0 -1 0<br>
-0 0 -1 0 0<br>
-0 0 -1 0 1<br>
-0 -1 1 1 0<br>
-Enter direction to go (U, D, L, R):D<br>
-Current position (1,0)<br>
-0 0 0 0 0<br>
-0 1 0 -1 0<br>
-0 0 -1 0 0<br>
-0 0 -1 0 1<br>
-0 -1 1 1 0<br>
-Enter direction to go (U, D, L, R):R<br>
-Item collected!<br>
-Current position (1,1)<br>
-0 0 0 0 0<br>
-0 0 0 -1 0<br>
-0 0 -1 0 0<br>
-0 0 -1 0 1<br>
-0 -1 1 1 0<br>
-7<br>
-Enter direction to go (U, D, L, R):D<br>
-Current position (2,1)<br>
-0 0 0 0 0<br>
-0 0 0 -1 0<br>
-0 0 -1 0 0<br>
-0 0 -1 0 1<br>
-0 -1 1 1 0<br>
+## HOMEWORK: Compute Averages of Student<br>
+### Tests<br>
+You are tasked with creating a program that calculates and displays various
+statistics related to student grades for a class. The program will take input
+from the user regarding the number of students and the number of tests each
+student has taken. It will then prompt the user to input the names of the
+students and their respective test scores. Based on this input, the program
+will perform the following tasks:<br>
+1. Read the number of students and the number of tests per student from the user.<br>
+2. Create arrays to store student names and test scores<br>
+3. Input student names and their test scores, calculating the total score for each student.<br>
+4. Calculate and display the average score for each student.<br>
+5. Calculate and display the class average score.<br>
+6. Calculate and display the average score for each test.<br>
+Requirements<br>
+Your program should meet the following requirements:<br>
+• Prompt the user to input the number of students and the number of tests.<br>
+• Use arrays to store student names and test scores<br>
+• Input student names and test scores using appropriate loops.<br>
+• Calculate student averages, class average, and test averages accurately.<br>
+• Display the results neatly, providing appropriate labels for each output.<br>
+• Ensure the program structure and variable usage are in accordance with the provided code.<br>
+### Sample Output<br>
+Your program’s output should be similar to the following:<br>
+Enter number of students<br>
+10<br>
+Enter the number of test for each student<br>
+5<br>
+Enter name for student 1: Alice<br>
+Enter the 5 test scores for Alice:<br>
+80 85 90 88 92<br>
+Enter name for student 2: Bob<br>
+Enter the 5 test scores for Bob:<br>
+75 82 78 90 88<br>
+...<br>
+Student Grades:<br>
+Alice’s average score: 87<br>
+Bob’s average score: 82.6<br>
+...<br>
+Class Average: 84.3<br>
+...<br>
+Average Test Scores:<br>
+Test 1 Average Score: 81.5<br>
+Test 2 Average Score: 84.1<br>
+...<br>
