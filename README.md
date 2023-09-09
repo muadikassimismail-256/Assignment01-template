@@ -12,7 +12,7 @@ will perform the following tasks:<br>
 4. Calculate and display the average score for each student.<br>
 5. Calculate and display the class average score.<br>
 6. Calculate and display the average score for each test.<br>
-Requirements<br>
+### Requirements<br>
 Your program should meet the following requirements:<br>
 • Prompt the user to input the number of students and the number of tests.<br>
 • Use arrays to store student names and test scores<br>
